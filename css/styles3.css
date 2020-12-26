@@ -1,0 +1,436 @@
+body {
+    margin: 0;
+    position: relative;
+     /* display: flex; */
+    /*flex-direction: column; */
+}
+
+
+header {
+    width: 100%;
+    height: 200px;
+    
+}
+
+header h1 {
+    width: 100%;
+    border: 4px;
+    font-size: 13px;
+    background-color: #c6c1c0;
+    padding-left: 70px;
+}
+
+
+
+header .tel-area {
+    float: left;
+    margin-top: -50px; 
+    margin-left: 500px;
+    /* margin-bottom: 100px;  */
+    /* padding-bottom: 150px; */
+    /* clear: both; */
+}
+
+header .tel-area a, p {
+    line-height: 0.5em;
+}
+
+header a.contact {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid #e5a3d5;
+    border-radius: 3px;
+    background-color: #e5a3d5;
+    box-shadow: 1px solid #e5a3d5;
+
+    
+}
+/* main */
+main {
+    width: 100%;  
+    margin-bottom: 70px; 
+    height: 700px;
+
+    /* justify-content: space-around;
+    align-items: center; */
+}
+ .cover ul {
+    width: 100%;
+    background-color: #e8bb63;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline-start: 0;
+    list-style: none;
+ }
+    
+.cover ul li {
+    border: 2px solid lightgray;
+    /* width: 33%; */
+}
+    
+　 
+
+
+section.camp-bar-area {
+    width: 100%;
+    height: 600px;
+    
+}
+.camp-bar-text {
+   background-color: #7cf285;  
+   text-align: center; 
+}
+
+ section.head {
+    width: 100%;
+    height: 200px;
+}  
+
+section.head .text {
+    line-height: 1.5em;
+}
+
+section.head > h3, span, p{
+   text-align: center;
+}
+
+
+section.lp {
+    background-color: #f2916b;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column; 
+}
+    
+
+
+.items-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center; 
+    /* justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+    width: 25%; */
+}
+.item {
+    display: flex;
+    /* min-height: 10vh;  */
+    margin: 10px 0;
+    right: 0px;
+    /* margin: 30px 50px; */
+}
+.item img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 20px 10px;
+} 
+
+/* .item img:nth-child(2),
+.item img:nth-child(4)
+  {
+  margin: 10px 10px;
+}  */
+
+.avoid-area h3, span, p {
+    color:　black;
+} 
+/* .item p {
+    float: right; //写真の下に文字を入れる、フレックスで
+} */
+
+section.lead {
+    background-color: #48caef;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_outer {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lead-item {
+  width: 210px;
+  height: 270px;
+  /* width: 31%; */
+  /* padding: 10px 2px; */
+  background-color: #5d6061;
+  
+  margin: 20px 80px;
+}
+
+.lead-item:nth-child(2) {
+    margin: 20px 10x 0 10px;
+
+}
+
+p.lead-item-ttl {
+    font-size: 22px;
+    font-weight: normal;
+}
+.lead-item-txt,
+.pink
+ {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1em;
+    font-family: bold;
+}
+.lead-item-btm,
+.pink2
+.lead-item-txt-sp
+ {
+    font-weight: normal;
+    line-height: 2em;
+}
+
+/* section.problem {
+
+    position: relative;
+} */
+/*ヒント：共通項目を洗い出して、複製する*/
+/*reasons*/
+section.reasons {
+    width: 100%;
+    height: 700px;
+    background-color: #dae530;
+}
+.reasons-catch, .reasons-tit,
+.txt-pink, .reasons-tit-top
+  {
+  text-align: center;
+}
+/*reason1*/
+section.reason1 .container  {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: row;
+}
+/* section.reason1 .container .r1-detail-box {
+    
+    width: auto;
+    height: 600px;
+    background-color: white;
+    display: flex;
+} */
+
+section.reason1 .container section.r1-detail-box {
+    /* display: flex; */
+    width: 400px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1; 
+    justify-content: flex-end;
+    align-items: stretch;
+    width: 25%;
+    
+}
+
+.r1-detail {
+    margin-right: 5px;
+}
+
+section.reason1　h4.reason-lead,
+span.large
+ {
+  text-align: center;
+}
+
+h3.reason-tit,
+ span.txt-pink
+  {
+    text-align: center;
+    font-size: 50px;
+    line-height: 1em;
+}
+
+section.reason1 span.txt-pink {
+    color: #ac4ca2;
+}
+/*.r1-detail Kore ni flexbox */
+.r1-detail-box .r1-detail {
+    width: 400px;
+    height: 300px;
+    background-color: #b6b1b5;
+    margin-bottom: 10px;
+}
+
+
+
+/* .r1-detail-box {
+
+} */
+
+/* .r1-detail .r1-detail-tit, .tex-pink, .r1-detail-p,.mk-yel {
+    line-
+} */
+
+.r1-detail .large, .mk-yel {
+    line-height: 2.0em;
+}
+
+/* .r1-detail-box-rd1-r {
+
+} */
+
+
+.reason1-header {
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    margin: 0 auto;
+    opacity: 0.7;
+}   
+
+.r1-detail h5.r1-detail-tit, .txt-pink, p {
+    line-height: 1.5em;
+
+}
+/*ヒント：共通項目を洗い出して、複製する*/
+/*r1-detail table*/
+
+/*reason2*/
+section.reason2 {
+    width: 100%;
+    height: 900px;
+    background-color: #48caef;
+}
+
+.reason-header {
+    width: 400px;
+    height: 200px;
+    background-color: #828ff1;
+    margin: 0 auto;
+}  
+
+section.reason2 .container {
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+}
+
+.reason2 .container span.tit-content
+ {
+  text-align: center; 
+}
+
+.reason2 .container span.tit-pink, span.large {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.r2-detail-box01 {
+    display: flex;
+    padding: 20px;
+}
+
+.r2-detail-box01 img {
+    margin: 0 20px 0 0;
+}
+
+.r2-detail-box03 {
+    display: flex;
+    padding: 20px;
+}
+
+.r2-detail-box03 img {
+    margin: 0 20px 0 0;
+}
+
+.r2-detail-box02:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.r2-detail-box02:nth-child(even) img {
+    margin: 0 0 0 20px;
+}
+
+.r2-detail-box02.r2-txt-btm {
+   /* display: flex;
+   justify-content: flex-end; */  //文字を写真の横に回り込ませる
+
+}
+
+.r2-detail-outer .r2-txt {
+    font-size: 25px;
+} 
+
+.r2-detail-outer .txt-pink {
+    color: #ee52e1;
+    font-size: 25px;
+}
+/*r2 classroom*/
+section .classroom {
+    width: 100%;
+    height: 400px;
+    background-color: #48caef;
+}
+.r2-classroom-header {
+    width: 500px;
+    height: 200px;
+    background-color: #48caef;
+    margin: 0 auto;
+    /*中央寄せにできない*/
+}
+.r2-catch, .r2-tit, .r2-txt {
+    text-align: center;  
+}
+
+/*reason2 part3*/
+section.reason2 .r2-classroom-img {
+    width: 100%;
+    height: 600px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+.r2-container-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1; 
+    margin: 0 20px;
+    /* justify-content: flex-end;
+    align-items: center;
+    width: 33%; */
+}
+.r2-container-img img:nth-child(odd) {
+   margin: 10px 50px 10px 30px;
+}
+.r2-container-img img:nth-child(2) {
+   margin: 10px 50px;
+}
+/* .r2-container-img img:nth-child(3) {
+   margin: 10px 50px 10px 30px ;
+} */
+/*footer*/
+footer {
+    width: 100%;
+    height: 300px;
+    /* background-color: #6d6e72; */
+    position: absolute;
+}
+
+
+
+
+
